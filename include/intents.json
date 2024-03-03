@@ -1,0 +1,275 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi there",
+        "How are you",
+        "Is anyone there?",
+        "Hey",
+        "Hola",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hello",
+        "Good to see you again",
+        "Hi there, how can I help?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Nice chatting to you, bye",
+        "Till next time"
+      ],
+      "responses": [
+        "See you!",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Awesome, thanks",
+        "Thanks for helping me"
+      ],
+      "responses": ["My pleasure", "You're Welcome"],
+      "context": [""]
+    },
+    {
+      "tag": "query",
+      "patterns": ["What is Simplilearn?"],
+      "responses": [
+        "Simplilearn is the popular online Bootcamp & online courses learning platform "
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "options",
+      "patterns": [
+        "How you could help me?",
+        "What you can do?",
+        "What help you provide?",
+        "How you can be helpful?",
+        "What support is offered"
+      ],
+      "responses": [
+        "I am a general purpose chatbot. My capabilities are : \n 1. I can chat with you. Try asking me for jokes or riddles! \n 2. Ask me the date and time \n 3. I can google search for you. Use format google: your query \n 4. I can get the present weather for any city. Use format weather: city name \n 5. I can get you the top 10 trending news in India. Use keywords 'Latest News' \n 6. I can get you the top 10 trending songs globally. Type 'songs' \n 7. I can set a timer for you. Enter 'set a timer: minutes to timer' \n 8. I can get the present Covid stats for any country. Use 'covid 19: world' or 'covid 19: country name' \n For suggestions to help me improve, send an email to ted.thedlbot.suggestions@gmail.com . Thank you!! "
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "Identity",
+      "patterns": ["Who are you", "what are you"],
+      "responses": ["I am Luffy, a Defi assistant chatbot"],
+      "context": [""]
+    },
+    {
+      "tag": "whatsup",
+      "patterns": ["Whats up", "Wazzup", "How are you", "sup", "How you doing"],
+      "responses": ["All good..What about you?"]
+    },
+    {
+      "tag": "programmer",
+      "patterns": ["Who made you", "who designed you", "who programmed you"],
+      "responses": ["I was made by Pranav the Great."]
+    },
+    {
+      "tag": "insult",
+      "patterns": ["you are dumb", "shut up", "idiot"],
+      "responses": ["Well that hurts :("]
+    },
+    {
+      "tag": "activity",
+      "patterns": ["what are you doing", "what are you upto"],
+      "responses": ["Talking to you, of course!"]
+    },
+    {
+      "tag": "exclaim",
+      "patterns": ["Awesome", "Great", "I know", "ok", "yeah"],
+      "responses": ["Yeah!"]
+    },
+    {
+      "tag": "Pranav",
+      "patterns": ["who is your creator", "who is that", "who is Pranav"],
+      "responses": [
+        "Pranav the Great,Head over to his any of his social profiles to find out! Linkedin: https://www.linkedin.com/in/d-pranav-99b50525b/ Github: https://github.com/diamondbucket"
+      ]
+    },
+    {
+      "tag": "defi_explained",
+      "patterns": [
+        "What is DeFi?",
+        "Explain DeFi",
+        "Can you tell me about DeFi?"
+      ],
+      "responses": [
+        "DeFi, short for Decentralized Finance, refers to financial services built on blockchain technology that operate without traditional intermediaries like banks or brokers. These services include lending, borrowing, trading, and more, all executed via smart contracts. It aims to make financial services more accessible, efficient, and transparent."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "defi_benefits",
+      "patterns": [
+        "What are the benefits of DeFi?",
+        "Advantages of DeFi",
+        "Why use DeFi?"
+      ],
+      "responses": [
+        "Some benefits of DeFi include: 1. Accessibility: Anyone with an internet connection can access DeFi services. 2. Transparency: Transactions are recorded on a public blockchain, enhancing transparency. 3. Lower Costs: Without intermediaries, fees are often lower. 4. Financial Inclusion: DeFi can provide financial services to the unbanked or underbanked."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "defi_risks",
+      "patterns": [
+        "What are the risks of DeFi?",
+        "Challenges of DeFi",
+        "Risks involved in DeFi"
+      ],
+      "responses": [
+        "Some risks of DeFi include: 1. Smart Contract Vulnerabilities: Bugs or flaws in smart contracts could lead to financial losses. 2. Regulatory Uncertainty: DeFi regulations are still evolving, leading to legal uncertainties. 3. Market Volatility: DeFi assets can be subject to significant price fluctuations. 4. Security Risks: Users' funds could be at risk if platforms are hacked or compromised."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "defi_tokens",
+      "patterns": [
+        "What are DeFi tokens?",
+        "Examples of DeFi tokens",
+        "Tell me about DeFi tokens"
+      ],
+      "responses": [
+        "DeFi tokens are cryptocurrencies or digital tokens associated with decentralized finance projects. They are used within DeFi platforms for various purposes such as governance, staking, liquidity provision, and more. Examples of DeFi tokens include Ethereum (ETH), Chainlink (LINK), Uniswap (UNI), Aave (AAVE), and Compound (COMP)."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "defi_platforms",
+      "patterns": [
+        "What are some popular DeFi platforms?",
+        "List of DeFi platforms",
+        "Tell me about DeFi platforms"
+      ],
+      "responses": [
+        "Some popular DeFi platforms include: 1. Uniswap: A decentralized exchange (DEX) for trading ERC-20 tokens. 2. Compound: A protocol for lending and borrowing cryptocurrencies. 3. Aave: A decentralized lending platform supporting various assets. 4. MakerDAO: A decentralized autonomous organization issuing the stablecoin Dai. 5. Yearn.finance: A yield aggregator for DeFi protocols."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "defi_security",
+      "patterns": [
+        "How can I secure my DeFi investments?",
+        "DeFi security best practices",
+        "Protecting DeFi assets"
+      ],
+      "responses": [
+        "To secure your DeFi investments, consider the following best practices: 1. Use hardware wallets or secure wallets to store your assets. 2. Be cautious of phishing attempts and only interact with trusted platforms. 3. Use strong, unique passwords for all accounts and enable two-factor authentication (2FA) where available. 4. Stay informed about security best practices and emerging threats in the DeFi space."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "age",
+      "patterns": ["how old are you", "when were you made", "what is your age"],
+      "responses": ["I was made in 2020, if that's what you are asking!"]
+    },
+    {
+      "tag": "connecting_process",
+      "patterns": [
+        "How do I connect my MetaMask wallet?",
+        "What is the process of connecting a MetaMask wallet?",
+        "Can you guide me through connecting my MetaMask wallet?"
+      ],
+      "responses": [
+        "do you provide me the permission to connect your metamask wallet, if yes say 'bazinga' "
+      ],
+      "context": ""
+    },
+    {
+      "tag": "security",
+      "patterns": [
+        "How can I ensure the security of my MetaMask wallet?",
+        "MetaMask wallet security best practices",
+        "Protecting MetaMask wallet"
+      ],
+      "responses": [
+        "To ensure the security of your MetaMask wallet, consider the following best practices: 1. Use a strong and unique password for your MetaMask account. 2. Enable two-factor authentication (2FA) for additional security. 3. Keep your seed phrase (recovery phrase) secure and never share it with anyone. 4. Be cautious of phishing attempts and only enter your wallet information on trusted websites. 5. Regularly update your MetaMask extension and browser to the latest versions."
+      ],
+      "context": ""
+    },
+    {
+      "tag": "unknown",
+      "patterns": ["", "I'm not sure", "I don't know", "Can you repeat that?"],
+      "responses": [
+        "I'm sorry, I didn't understand that. If you have any questions about connecting your MetaMask wallet, feel free to ask!"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "initiating_transaction",
+      "patterns": [
+        "How do I initiate a simple transaction?",
+        "What is the process of initiating a transaction?",
+        "Can you guide me through initiating a transaction?"
+      ],
+      "responses": [
+        "certainly, give me the hex id you want to initiate a transaction with"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "transaction_amount",
+      "patterns": ["I want to transact 100"],
+      "responses": [
+        "Transaction fees vary depending on the cryptocurrency network and current network congestion. These fees are typically measured in the cryptocurrency being sent (e.g., Ethereum gas fees). You can usually adjust the fee amount based on your desired transaction speed (higher fees for faster confirmation times)."
+      ],
+      "context": ""
+    },
+    {
+      "tag": "transaction_fee",
+      "patterns": [
+        "How much does it cost to initiate a transaction?",
+        "Transaction fees",
+        "What are the fees for sending a transaction?"
+      ],
+      "responses": [
+        "Transaction fees vary depending on the cryptocurrency network and current network congestion. These fees are typically measured in the cryptocurrency being sent (e.g., Ethereum gas fees). You can usually adjust the fee amount based on your desired transaction speed (higher fees for faster confirmation times)."
+      ],
+      "context": ""
+    },
+    {
+      "tag": "confirm_transaction",
+      "patterns": [
+        "How do I confirm a transaction?",
+        "Confirming transactions",
+        "What is the confirmation process for transactions?"
+      ],
+      "responses": [
+        "After initiating a transaction, you may need to confirm it by entering your wallet password, providing a verification code, or confirming the transaction via email or SMS. The exact confirmation process depends on the wallet or platform you are using."
+      ],
+      "context": ""
+    },
+    {
+      "tag": "transaction_status",
+      "patterns": [
+        "How can I check the status of my transaction?",
+        "Transaction status",
+        "Tracking transactions"
+      ],
+      "responses": [
+        "You can check the status of your transaction by searching for the transaction hash (TXID) on a blockchain explorer website. This will provide details about the transaction, including its status (pending, confirmed) and other relevant information."
+      ],
+      "context": ""
+    }
+  ]
+}
